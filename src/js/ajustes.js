@@ -11,11 +11,10 @@ const setTheme = (url) => {
 btnSaveUrl.addEventListener('click', ()  => {
     let datos = document.getElementById('background').value;
     setTheme(datos);
-    window.location.reload()
+    window.location.reload();
 });
 btnClear.addEventListener('click', ()  => {
     document.getElementById('background').value = "";
-    window.location.reload()
 });
 
 setTheme(localStorage.getItem('url_background') || defaultURL);
