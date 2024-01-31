@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/general.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <script src="https://kit.fontawesome.com/f54d272d6c.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>DDSC Awards - Resultados</title>
+</head>
+<body id="body">
+    <header >
+        <div class="content_header">
+            <div class="logo">
+                <img src="assets/imgs/channels4_profile.webp" alt="menu" id="btn_menu">
+                <div class="categoria">
+                    <a href="index.html" class="selected_button"><i class="fa-solid fa-house"></i></a>
+                    <a href="ajustes.html"><i class="fa-solid fa-gear"></i></a>
+                    <a href="musica.html"><i class="fa-solid fa-music"></i></a>
+                </div>
+            </div>
+            <nav id="home" style="display: none;" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
+                <ul>
+                    <!--  <li><a href="#sobre-mi" id="selected"><i class="fa-solid fa-question"></i> Sobre mi</a> </li> -->
+                    <li><a href="https://www.dokidokispanish.club/" ><i class="fa-solid fa-power-off"></i><label>Salir</label></a> </li>
+                </ul>
+            </nav>
+            
+            <div class="hora">
+                <div class="numeros">
+                    <p id="horas">00</p>:<p id="minutos">00</p><p>&nbsp;</p><p id="ampm">AM</p>
+                </div>
+                <div class="fecha">
+                    <p id="dia">00</p>/<p id="mes">00</p>/<p id="year">0000</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  
+    <script type="text/javascript" src="src/js/general.js"></script>
+    
+    <script type="text/javascript" src="src/js/fondo.js"></script>
+
+</body>
+<script>
+    AOS.init();
+  </script>
+</html>
