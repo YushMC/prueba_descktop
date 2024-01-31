@@ -9,6 +9,7 @@ const btnClear_list = document.querySelector('#clear_input_playlist');
 const setURL_List = (url) => {
     localStorage.setItem('url_playlist', url);
     document.getElementById("playlist_frame").style.display="block";
+    document.getElementById("playlist_frame").setAttribute("src", url);
 }
 
 btnSaveUrl_list.addEventListener('click', ()  => {

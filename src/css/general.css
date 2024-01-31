@@ -72,7 +72,7 @@ main{
     justify-content: center;
     align-items: center;
     cursor:default;
-    flex-direction: row;
+    flex-direction: column;
     margin:2%;
     gap:1%;
 }
