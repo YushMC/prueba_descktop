@@ -45,10 +45,17 @@
                 <h5>Música</h5>
                     <label id ="minimizar">-</label>
             </div>
+            <h5>Ingresa una url para tu album o playlist de spotify</h5>
+            <button id="reset_playlist">Restablecer Ajustes</button>
             <div class="contenido_program">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3sQqya1Z1oFg1ueZ18QB7k?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/71dlM9bv9Ze3JexA9INOUF?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            </div>
+                <div class="opcion">
+                    <input type="text" name="background" id="playlist">
+                    <button id="clear_input_playlist" >Borrar</button>
+                    <button id="save_url_list" >Guardar</button>
+                </div>
+                <div>
+                <iframe style="border-radius:12px;display:none;" id="playlist_frame" src="https://open.spotify.com/embed/album/3sQqya1Z1oFg1ueZ18QB7k?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+               </div>
         </div>
         
     </main>
@@ -56,6 +63,8 @@
     
     <script type="text/javascript" src="src/js/fondo.js"></script>
     <script type="text/javascript" src="src/js/ajustes.js"></script>
+    <script type="text/javascript" src="src/js/music.js"></script>
+
 </body>
 <script>
     AOS.init();

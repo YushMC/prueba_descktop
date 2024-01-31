@@ -1,4 +1,4 @@
-const defaultURL = "assets/imgs/Class_webp.png";
+const defaultURL = "https://wallpapercave.com/uwp/uwp3158327.jpeg";
 const btnSaveUrl = document.querySelector('#save_url');
 const btnReset = document.querySelector('#reset');
 const btnClear = document.querySelector('#clear_input');
