@@ -1,4 +1,4 @@
-const defaultURL = "assets/imgs/Class_webp.png";
+
 const btnSaveUrl = document.querySelector('#save_url');
 const btnReset = document.querySelector('#reset');
 
@@ -13,7 +13,7 @@ btnSaveUrl.addEventListener('click', ()  => {
     window.location.reload()
 });
 
-setTheme(localStorage.getItem('url_background') || defaultURL);
+
 
 document.getElementById("background").value = localStorage.getItem('url_background');
 
